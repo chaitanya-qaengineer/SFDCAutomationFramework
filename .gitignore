@@ -1,0 +1,53 @@
+# ===========================
+# Java & Maven
+# ===========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# ===========================
+# Test Artifacts (generated at runtime)
+# ===========================
+logs/
+test-output/
+src/test/java/reports/
+
+# ===========================
+# IDE Files
+# ===========================
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Sensitive Files
+# ===========================
+# Uncomment if you move credentials to a local-only file:
+# src/test/java/testdata/loginTestData.properties
